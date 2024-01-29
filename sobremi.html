@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sobremi</title>
+</head>
+<style>
+.negrita {
+    font-weight: bold;
+}
+.cursiva {
+    font-style: italic;
+}
+.div1 {
+    margin-top: 70px;
+    margin-left: 15px;
+    color: white;
+}
+.listainfopersonal {
+    font-size: 19px;
+}
+.bordelista {
+    border: 1px solid rgb(201, 107, 255);
+    width: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.div1titulo {
+    font-size: 27px;
+}
+.subrallado {
+    text-decoration: underline 2px rgb(201, 107, 255);
+    text-underline-offset: 2px;
+}
+.textolista {
+    font-size: 30px;
+}
+.fondo {
+    background-color: rgb(42, 42, 42);
+}
+header {
+    background-color:rgb(42, 42, 42);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 90px;
+    border-bottom: 2px solid rgb(201, 107, 255);
+    padding-left: 15px;
+    color: white;
+    
+}
+.botones {
+    margin-right: 15px ;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    text-decoration: underline 1px;
+    border: 1px solid rgb(201, 107, 255);
+    padding: 5px;
+}
+.botones:hover {
+    background-color: rgb(156, 85, 196);
+}
+.foto {
+    color: white;
+    border: 1px solid rgb(201, 107, 255) ;
+    height: 200px;
+    width: 160px;
+    margin-left: 1650px;
+    margin-top: -250px;
+    display: flex;
+    justify-content: space-between;
+}
+</style>
+<body class="fondo">
+    <header>
+        <h1 class="subrallado cursiva">Información personal</h1>
+        <a class="botones" href="index.html">Atrás</a>
+    </header>
+    <div class="div1">
+        <ul class="listainfopersonal bordelista textolista">
+            <li>
+                <span class="negrita cursiva"> Nombre:</span> Adrián Álvarez
+            </li>
+            <li>
+                <span class="negrita cursiva"> Edad:</span> 19 años
+            </li>
+            <li>
+                <span class="negrita cursiva"> Fecha nacimiento:</span> 18/08/2004
+            </li>
+            <li>
+                <span class="negrita cursiva"> Lugar nacimiento:</span> España
+            </li>
+            <li>
+                <span class="negrita cursiva"> Actualmente:</span> Estudiante
+            </li>
+        </ul>
+    </div>
+    <div class="foto"> <p>Foto no disponible</p></div>
+</body>
+</html>

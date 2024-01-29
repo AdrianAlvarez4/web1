@@ -7,18 +7,18 @@
 </head>
 <style>
 header {
-    background-color:antiquewhite;
+    background-color:rgb(42, 42, 42);
     display: flex;
     justify-content:space-between;
     align-items: center;
     height: 90px;
-    border-top: 2px solid rgb(216, 188, 153);
-    border-bottom: 2px solid rgb(216, 188, 153);
+    border-bottom: 2px solid rgb(201, 107, 255);
     padding-left: 15px;
+    color: white;
     
 }
 .nombre:hover {
-    color: rgb(126, 66, 228);
+    color: rgb(201, 107, 255);
 }
 .negrita {
     font-weight: bold;
@@ -27,46 +27,29 @@ header {
     font-weight: normal;
 }
 .subrallado {
-    text-decoration: underline 2px black;
+    text-decoration: underline 2px rgb(201, 107, 255);
     text-underline-offset: 2px;
 
 }
 .fondo {
-    background-color: rgba(194, 194, 194, 0.136);
-}
-.div1 {
-    margin-top: 50px;
-    margin-left: 15px;
-}
-.div1titulo {
-    font-size: 27px;
-}
-.listainfopersonal {
-    font-size: 19px;
-}
-.bordelista {
-    border: 1px solid rgb(216, 188, 153);
-    width: 260px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: antiquewhite;
+    background-color: rgb(42, 42, 42);
 }
 .cursiva {
     font-style: italic;
 }
-.div2 {
-    margin-top: 50px;
-    margin-left: 15px;
-}
+
 .botones {
     margin-right: 15px ;
     font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: rgb(255, 255, 255);
     font-style: italic;
     text-decoration: underline 1px;
-    border: 1px solid rgb(216, 188, 153);
+    border: 1px solid rgb(201, 107, 255);
     padding: 5px;
+}
+.botones:hover {
+    background-color: rgb(156, 85, 196);
 }
 </style>
 <body class="fondo">
@@ -74,34 +57,9 @@ header {
         <h1> <span class="letranormal"> Portafolio</span>  <span class="nombre"> Adrián Álvarez</span></h1>
         <nav>
             <a class="botones" href="activitats.html">Actividades</a>
-            <a class="botones" href="">Sobre mi</a>
+            <a class="botones" href="sobremi.html">Sobre mi</a>
         </nav>
     </header>
-    <div class="div1">
-        <h2 class="subrallado div1titulo">Información personal:</h2>
-        <ul class="listainfopersonal bordelista">
-            <li>
-                <span class="negrita cursiva"> Nombre:</span> Adrián Álvarez
-            </li>
-            <li>
-                <span class="negrita cursiva"> Edad:</span> 19 años
-            </li>
-            <li>
-                <span class="negrita cursiva"> Fecha nacimiento:</span> 18/08/2004
-            </li>
-            <li>
-                <span class="negrita cursiva"> Lugar nacimiento:</span> España
-            </li>
-            <li>
-                <span class="negrita cursiva"> Actualmente:</span> Estudiante
-            </li>
-        </ul>
-    </div>
-    <div>
-        <h2> Tabla 2</h2>
-        <ul>
-            <li></li>
-        </ul>
-    </div>
+    
 </body>
 </html>

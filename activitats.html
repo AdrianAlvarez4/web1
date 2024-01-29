@@ -6,25 +6,61 @@
     <title>Índex - Adrián Álvarez</title>
 </head>
 <style>
+    .fondo {
+        background-color:rgb(42, 42, 42)}
     .colores {
-        color:rgb(80, 80, 80) ;
+        color:rgb(255, 255, 255) ;
     }
     .colores:hover {
-        color: orange;
-        background-color: rgb(0, 0, 0);
-    }
-    .fondo {
-        background-color: orange;
+        color: rgb(201, 107, 255);
     }
     .underline {
-        text-decoration: underline orange
-
+        text-decoration: underline rgb(201, 107, 255)
     }
+    .decoracion {
+        background-color:rgb(201, 107, 255) ;
+    }
+    .textoblanco {
+        color: white;
+    }
+    header {
+    background-color:rgb(42, 42, 42);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 90px;
+    border-bottom: 2px solid rgb(201, 107, 255);
+    padding-left: 15px;
+    color: white;
+    
+}
+.botones {
+    margin-right: 15px ;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    text-decoration: underline 1px;
+    border: 1px solid rgb(201, 107, 255);
+    padding: 5px;
+}
+.botones:hover {
+    background-color: rgb(156, 85, 196);
+}
+.tamanonombre {
+    font-size: 20px;
+    padding-left: 5px;
+}
 </style>
-<body>
-    <h1>Activitats de <span class="underline"> HTML y CSS</span></h1>
-     <h3>Por Adrián Álvarez</h3>
-    <h2 class="fondo">HTML</h2>
+<body class="fondo">
+    <header>
+        <h1 class="textoblanco">Activitats de <span class="underline textoblanco"> HTML y CSS </span> <span class="tamanonombre"> (por Adrián Álvarez)</span></h1>
+        <a class="botones" href="index.html">Atrás</a>
+
+    </header>
+
+
+    <h2 class="decoracion">HTML</h2>
 
     <ul>
        <li><a class="colores" href="activitats/html/02Formato/formato.html"><strong>02 Formato</strong></a></li> 
@@ -52,7 +88,7 @@
     </ul>
     <br>
     <br>
-    <h2 class="fondo">CSS</h2>
+    <h2 class="decoracion">CSS</h2>
     <ul>
         <li><a class="colores" href="activitats/css/03Selectores/selectores.html"><strong>03 Selectores</strong></a></li>
         <br>
@@ -72,7 +108,13 @@
         <li><a class="colores" href="activitats/css/09Medidas/medidas.html"><strong>09 Medidas</strong></a></li>
         <br>
         <br>
-        <li><a href=""></a></li>
+        <li><a class="colores" href="activitats/css/10Imagenes/imagenes.html"><strong>10 Imagenes</strong></a></li>
+        <br>
+        <br>
+        <li><a class="colores" href="activitats/css/11Display/display.html"><strong>11 Display</strong></a></li>
+        <br>
+        <br>
+        <li><a class="colores" href="activitats/css/12Margin/margin.html"><strong>12 Margin</strong></a></li>
     </ul>
 </body>
 </html>
